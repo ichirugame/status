@@ -1,0 +1,13 @@
+.color {
+  color:#009966;
+}
+html {
+ background-color:  #FFFFFF;
+}
+.box{
+text-align: center;
+/*justify-content:right;*/
+}
+.error{
+color:red;
+}

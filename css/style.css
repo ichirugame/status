@@ -1,0 +1,46 @@
+::-moz-selection {
+    background-color: green;
+}
+::selection {
+    background-color: green;
+}
+html {
+/*background-color: #EEEEEE;*/
+background-color: #339966;
+text-align: center;
+}
+.color{
+  color:#009966;
+}
+.txt{
+text-align: center;
+padding: 0.5em 1em;
+margin: 2em 0;
+font-weight: bold;
+color: #6091d3;
+background: #FFF;
+border: solid 3px #6091d3;
+border-radius: 10px;
+width:870px;
+margin-left:auto;
+margin-right:auto;
+line-height:1;
+}
+.txt p{
+    margin: 0; 
+    padding: 0;
+}
+.img{
+text-align: initial;
+vertical-align: bottom;
+vertical-align: top;
+}
+/*.box{
+background-color: #FFFFFF;
+}*/
+.lf{
+text-align: left;
+}
+.mb{
+text-align: right;
+}
