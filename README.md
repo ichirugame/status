@@ -31,3 +31,19 @@ index.phpにアクセスがあるとログファイルが生成されます。
 ### ログローテーション
 
 1日に1回pc_log_rotate.php,mobile_log_rotate.phpをcronなどで実行してください
+
+## ソースコード元
+
+参考させていただきました。(ほぼコピペ...)
+
+死活監視
+
+https://blog.verygoodtown.com/2012/05/php-ping-script-to-check-remote-server-or-website/
+
+アクセスログ
+
+https://www.webcyou.com/?p=6883
+
+ログローテーション
+
+https://qiita.com/AoiLaurent/items/40a2c7e766552c7a9ce9
