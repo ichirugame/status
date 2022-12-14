@@ -1,10 +1,17 @@
 <?php
 /*めんどくさくなったので一旦$にします
-return config (
-    'port' => '443',
-    'timeout' => '1',
-    'host' => 'localhost',
-);
+//ホストサーバー
+define("HOST", "localhost");
+define("TIMEOUT", "1");
+define("PORT", "443");
+//仮想サーバー1 (別のサーバー)
+define("VHOST", "null");
+define("TIMEOUT1", "null");
+define("VPORT", "443");
+//仮想サーバー2 (別のサーバー)
+define("VHOST2", "null");
+define("TIMEOUT2", "null");
+define("VPORT2", "443");
 */
 /*サーバー死活監視の設定ファイル*/
 /*ホストサーバー*/
@@ -32,4 +39,6 @@ $vhost2 = '';
 $domain = $_SERVER['HTTP_HOST'];
 /*hostヘッダがないや動かない場合は下のコードを有効化し上のコードを無効化*/
 //$domain = $_SERVER['SERVER_NAME'];
+/*自分でドメインの設定*/
+//$domain = "";
 ?>
