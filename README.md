@@ -47,3 +47,11 @@ https://www.webcyou.com/?p=6883
 ログローテーション
 
 https://qiita.com/AoiLaurent/items/40a2c7e766552c7a9ce9
+
+モバイル判定のリダイレクト
+
+https://www.j-cool.co.jp/blog/?p=1523
+
+f5禁止
+
+URL忘れた
