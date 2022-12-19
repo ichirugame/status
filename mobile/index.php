@@ -1,6 +1,11 @@
 <?php
 include_once ('../config/config.php');
 include_once ('../mobile_log.php');
+$user = $_SERVER['HTTP_USER_AGENT'];
+if (preg_match("/Windows|Mac.*OS|/", $user)) {
+    header('Location: ../index.php');
+    exit;
+}else{
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -17,6 +22,7 @@ include_once ('../mobile_log.php');
 <h2 style="text-align:left;">ステータス</h2>
 <p style="text-align:left;">サーバーステータスページ</p>
 </div>
+
 <div class=box>
 <div class=color>
 <iframe src="../host.php" width="300" height="50">
@@ -24,21 +30,9 @@ include_once ('../mobile_log.php');
 </div>
 </div>
 
-<div class=box>
-<div class=color>
-<iframe src="../vhost1.php" width="300" height="50">
-</iframe>
-</div>
-</div>
-
-<div class=box>
-<div class=color>
-<iframe src="../vhost2.php" width="300" height="50">
-</iframe>
-</div>
-</div>
 <div class=mb>
 <p>モバイル版</p>
 </div>
 </body>
 </html>
+<?php } ?>

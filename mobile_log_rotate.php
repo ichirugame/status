@@ -1,5 +1,4 @@
 <?php
-//while (true) {
     date_default_timezone_set('Asia/Tokyo');
     $logPath = "./log";
     $logName = "mobile_access_log.txt";
@@ -18,6 +17,4 @@
         rename($logPath . "/" .  $logName, $logPath . "/" .  $logName . "." . $sysDate);
     }
     touch($logPath . "/" .  $logName);
-//sleep(86400);
-//}
 ?>
