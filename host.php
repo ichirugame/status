@@ -3,16 +3,16 @@
 include_once ('./global.php');
 include_once ('./config/config.php');
 
-function ping(HOST,PORT,TIMEOUT)
+function ping($HOST,$PORT,$TIMEOUT)
 {
-   $fsock = fsockopen(HOST, PORT, $errno, $errstr, TIMEOUT);
+   $fsock = fsockopen($HOST, $PORT, $errno, $errstr, $TIMEOUT);
    if ( ! $fsock ) {
    return FALSE;
   } else{
    return TRUE;
   }
 }
-$up = ping(HOST,PORT,TIMEOUT);
+$up = ping($HOST,$PORT,$TIMEOUT);
 
 echo "サーバー : ";
 echo "<div class=box; style=display:inline-block; _display:inline;>";
