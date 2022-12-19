@@ -1,6 +1,11 @@
 <?php
 include_once ('../config/config.php');
 include_once ('../mobile_log.php');
+$user = $_SERVER['HTTP_USER_AGENT'];
+if (preg_match("/Windows|Mac.*OS|/", $user)) {
+    header('Location: ../index.php');
+    exit;
+}else{
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -30,3 +35,4 @@ include_once ('../mobile_log.php');
 </div>
 </body>
 </html>
+<?php } ?>

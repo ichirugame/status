@@ -20,8 +20,6 @@ $host = 'localhost';
 
 を変更してください。
 
-違うサーバーを監視したい場合は"$vport"などを変更してください
-
 ### ログ
 
 index.phpにアクセスがあるとログファイルが生成されます。
@@ -48,10 +46,14 @@ https://www.webcyou.com/?p=6883
 
 https://qiita.com/AoiLaurent/items/40a2c7e766552c7a9ce9
 
-モバイル判定のリダイレクト
+モバイル判定のリダイレクト (php)
+
+https://webmaking.rei-farms.jp/webmaking/2677/
+
+モバイル判定のリダイレクト (js)
 
 https://www.j-cool.co.jp/blog/?p=1523
 
-f5禁止
+f5禁止 (削除)
 
 URL忘れた
