@@ -52,6 +52,10 @@ https://webmaking.rei-farms.jp/webmaking/2677/
 
 モバイル判定のリダイレクト (js)
 
+このjsは使用されていません。
+
+phpに変更しました。
+
 https://www.j-cool.co.jp/blog/?p=1523
 
 f5禁止 (削除)
