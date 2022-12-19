@@ -25,20 +25,6 @@ include_once ('./pc_log.php');
 </iframe>
 </div>
 </div>
-<!--仮想サーバー1-->
-<div class=box>
-<div class=color>
-<iframe src="./vhost1.php" width="900" height="40">
-</iframe>
-</div>
-</div>
-<!--仮想サーバー2-->
-<div class=box>
-<div class=color>
-<iframe src="./vhost2.php" width="900" height="40">
-</iframe>
-</div>
-</div>
 <div class=lf>
 <div class=mb>
 <p>PC版</p>

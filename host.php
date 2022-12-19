@@ -5,16 +5,16 @@ include_once ('./global.php');
 include_once ('./config/config.php');
 ?>
 <?php
-function ping($host,$port,$timeout)
+function ping(HOST,PORT,TIMEOUT)
 {
-   $fsock = fsockopen($host, $port, $errno, $errstr, $timeout);
+   $fsock = fsockopen(HOST, PORT, $errno, $errstr, TIMEOUT);
    if ( ! $fsock ) {
    return FALSE;
   } else{
      return TRUE;
   }
   }
-$up = ping($host,$port,$timeout);
+$up = ping(HOST,PORT,TIMEOUT);
 ?>
 <?php
 echo "ホストサーバー : ";

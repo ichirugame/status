@@ -17,6 +17,7 @@ include_once ('../mobile_log.php');
 <h2 style="text-align:left;">ステータス</h2>
 <p style="text-align:left;">サーバーステータスページ</p>
 </div>
+
 <div class=box>
 <div class=color>
 <iframe src="../host.php" width="300" height="50">
@@ -24,19 +25,6 @@ include_once ('../mobile_log.php');
 </div>
 </div>
 
-<div class=box>
-<div class=color>
-<iframe src="../vhost1.php" width="300" height="50">
-</iframe>
-</div>
-</div>
-
-<div class=box>
-<div class=color>
-<iframe src="../vhost2.php" width="300" height="50">
-</iframe>
-</div>
-</div>
 <div class=mb>
 <p>モバイル版</p>
 </div>
